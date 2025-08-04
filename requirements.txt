@@ -1,0 +1,26 @@
+# requirements.txt
+
+# Core Data Science & EDA
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
+
+# Feature Engineering (WoE/IV)
+woe
+xverse
+
+# Model Training & Tracking
+lightgbm
+mlflow
+
+# API & Deployment
+fastapi
+uvicorn[standard]
+pydantic
+
+# Testing & Code Quality
+pytest
+flake8

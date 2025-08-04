@@ -1,0 +1,11 @@
+# docker-compose.yml
+
+version: "3.8"
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app # Mounts the current directory into the container for live-reloading during development

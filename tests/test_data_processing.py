@@ -51,6 +51,7 @@ def test_create_customer_level_features():
     # Get the data for customer 'C1'
     customer_c1 = customer_df[customer_df['CustomerId'] == 'C1'].iloc[0]
     
+    
     # Assertions for Customer C1
     # Snapshot date is 2025-06-11. Last transaction is 2025-06-10. Recency should be 1.
     assert customer_c1['Recency'] == 1
